@@ -7,11 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HTAddress.h"
+#import "HTFamily.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        HTAddress *adress = [[HTAddress alloc] initWithCountry:@"Belorus" andCity:@"Gomel" andStreet:@"Lepeshinskogo" andZip:246015];
+        HTAddress *adress1 = [HTAddress adressWithCountry:@"Russia" andCity:@"Moscow" andStreet:@"Sovetskay" andZip:500100];
+        
+        NSLog(@"My adress = %@", adress);
+        NSLog(@"Your adress = %@", adress1);
+        
+        HTFamily *family = [[HTFamily alloc] initWithCountry:@"Fa" andCity:@"mi" andStreet:@"ly" andZip:1];
+         NSLog(@"His family = %@", family);
     }
     return 0;
 }
