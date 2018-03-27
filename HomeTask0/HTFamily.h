@@ -8,13 +8,17 @@
 
 #import <Foundation/Foundation.h>
 #import "HTAddress.h"
+#import "HTPerson.h"
+
+@class HTPerson;
 
 @interface HTFamily : NSObject
 
-@property(nonatomic, readonly) NSString *adress;
+@property(nonatomic, readwrite) HTAddress *adress;
 @property(nonatomic, copy) NSArray *members;
 
 -(instancetype) initWithCountry: (NSString *)country andCity: (NSString *)city andStreet: (NSString *)street andZip: (NSInteger)zip;
-//- (void)addMember:(EXPerson *)person;
+
+- (void)addMember: (HTPerson *) person;
 
 @end

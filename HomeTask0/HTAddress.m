@@ -8,6 +8,14 @@
 
 #import "HTAddress.h"
 
+@interface HTAddress ()
+
+@property(nonatomic, readwrite) NSString *country;
+@property(nonatomic, readwrite) NSString *city;
+@property(nonatomic, readwrite) NSString *street;
+@property(nonatomic, readwrite) NSInteger zip;
+
+@end
 
 @implementation HTAddress
 
@@ -22,10 +30,10 @@
     return self;
 }
 
-//+(instancetype) adressWithCountry:(NSString *)country andCity:(NSString *)city andStreet:(NSString *)street andZip:(NSInteger)zip {
-//
-//    return [[self alloc] initWithCountry:country andCity:city andStreet:street andZip:zip];
-//}
++(instancetype) adressWithCountry:(NSString *)country andCity:(NSString *)city andStreet:(NSString *)street andZip:(NSInteger)zip {
+
+    return [[self alloc] initWithCountry:country andCity:city andStreet:street andZip:zip];
+}
 
 - (NSString *)description {
     if ((self.country == nil) || (self.city == nil) || (self.street == nil)) {

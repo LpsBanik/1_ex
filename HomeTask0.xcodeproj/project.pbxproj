@@ -10,6 +10,7 @@
 		636B3BF52069302300512D2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 636B3BF42069302300512D2A /* main.m */; };
 		636B3BFD2069308D00512D2A /* HTAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 636B3BFC2069308D00512D2A /* HTAddress.m */; };
 		636B3C002069377400512D2A /* HTFamily.m in Sources */ = {isa = PBXBuildFile; fileRef = 636B3BFF2069377400512D2A /* HTFamily.m */; };
+		63ECC3DD206A3C1F00914C82 /* HTPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ECC3DC206A3C1F00914C82 /* HTPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		636B3BFC2069308D00512D2A /* HTAddress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTAddress.m; sourceTree = "<group>"; };
 		636B3BFE2069377400512D2A /* HTFamily.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTFamily.h; sourceTree = "<group>"; };
 		636B3BFF2069377400512D2A /* HTFamily.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTFamily.m; sourceTree = "<group>"; };
+		63ECC3DB206A3C1F00914C82 /* HTPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTPerson.h; sourceTree = "<group>"; };
+		63ECC3DC206A3C1F00914C82 /* HTPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				636B3BFC2069308D00512D2A /* HTAddress.m */,
 				636B3BFE2069377400512D2A /* HTFamily.h */,
 				636B3BFF2069377400512D2A /* HTFamily.m */,
+				63ECC3DB206A3C1F00914C82 /* HTPerson.h */,
+				63ECC3DC206A3C1F00914C82 /* HTPerson.m */,
 			);
 			path = HomeTask0;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63ECC3DD206A3C1F00914C82 /* HTPerson.m in Sources */,
 				636B3BFD2069308D00512D2A /* HTAddress.m in Sources */,
 				636B3C002069377400512D2A /* HTFamily.m in Sources */,
 				636B3BF52069302300512D2A /* main.m in Sources */,
